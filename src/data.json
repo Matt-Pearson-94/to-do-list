@@ -1,0 +1,43 @@
+
+    {
+        "home": 
+        [{
+            "title": "Pay Bills",
+            "details": "Rent due (£1,750)",
+            "due date": "31/08/2024",
+            "priority": "High"
+        },
+        {
+            "title": "Pick up birthday bits",
+            "details": "Party hats, balloons and cake",
+            "due date": "25/09/2024",
+            "priority": "Medium"
+        },
+        {
+            "title": "Finish report",
+            "details": "Finance report for Mr. Smith showing market trends",
+            "due date": "31/10/2024",
+            "priority": "Low"
+        }],
+        "today": 
+        [{
+            "title": "Pay Bills",
+            "details": "Rent due (£1,750)",
+            "due date": "31/08/2024",
+            "priority": "High"
+        },
+        {
+            "title": "Pick up birthday bits",
+            "details": "Party hats, balloons and cake",
+            "due date": "25/09/2024",
+            "priority": "Medium"
+        },
+        {
+            "title": "Finish report",
+            "details": "Finance report for Mr. Smith showing market trends",
+            "due date": "31/10/2024",
+            "priority": "Low"
+        }]
+    }
+
+

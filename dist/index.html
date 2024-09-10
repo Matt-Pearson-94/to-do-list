@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="main.css">
+
+    <script type="module" src="../src/to-do-functions.js" defer></script>
+    <script src="../src/index.js" defer></script>
+</head>
+<body>
+    <div class="page-header-container">
+        <div class="page-header">// TO-DO</div>
+        <button class="home-add-button" onclick="homeAddButton()">+</button>
+    </div>
+    <div class="main-contents-container">
+        <div class="side-bar-container">
+            <div class="home-button-container">
+                <div class="page home">Home</div>
+                <div class="home-notifications"></div>
+            </div>
+            <div class="today-button-container">
+                <div class="page today">Today</div>
+                <div class="today-notifications"></div>
+            </div>
+            <div class="week-button-container">
+                <div class="page week">Week</div>
+                <div class="week-notifications"></div>
+            </div>
+            <div class="projects-button-container">
+                <div class="page projects">Projects</div>
+            </div>
+            <div class="notes-button-container">
+                <div class="page notes">Notes</div>
+                <div class="notes"></div>
+            </div>
+
+        </div>
+        <div class="contents-container"></div>
+    </div>
+    <div class="pop-up-container">
+        <div class="pop-up-display">
+            <div class="pop-up-header-container">
+                <div class="pop-up-title">Create a new...</div>
+                <button class="close-pop-up" onclick="closePopUp()">X</button>
+            </div>
+            <div class="pop-up-side-container">
+                <div class="pop-up-to-do">To Do</div>
+                <div class="pop-up-project">Project</div>
+                <div class="pop-up-notes">Note</div>
+            </div>
+            <div class="pop-up-contents"></div>
+        </div>
+    </div>
+</body>
+</html>
